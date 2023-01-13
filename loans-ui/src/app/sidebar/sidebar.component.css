@@ -1,0 +1,91 @@
+/* The Main Container */
+.container {
+  display: none;
+  position: relative;
+}
+
+/* This will Show the User DropDown Section when We Hover Over the UserName */
+.container__sidebar:hover .container {
+  display: block;
+
+  z-index: 100;
+  cursor: pointer;
+  width: 100px;
+  /* position: absolute; */
+}
+
+
+/* The Toggle Container */
+.toggle__sidebar {
+  position: absolute;
+  top: 15px;
+  left: 100px;
+  z-index: 1000;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+/* The Main Sidebar i.e NAV */
+.sidebar {
+  position: fixed;
+  top: 56px;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  padding: 5px 0;
+  box-shadow: inset -1px 0 0 rgb(0 0 0 / 10%);
+}
+
+/* The UL */
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 5px;
+  margin: -20px 0px 0px 0px;
+  list-style: none;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+
+/* The <a> Tag in UL*/
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+}
+
+.sidebar .nav-link:hover {
+  color: #6e7983;
+}
+
+/* To Highlight the Selected/Active Link */
+.sidebar .nav-link.active {
+  color: #2470dc;
+}
+
+/* The SVG Tag */
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #727272;
+}
+
+/* The Middle Section i.e Loan Plans and Reports */
+.sidebar__middle {
+  margin: 10px 0px 10px 0px;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+.dashboard {
+  margin: 0px 0px 10px 0px;
+  border-bottom: 1px solid lightgray;
+}

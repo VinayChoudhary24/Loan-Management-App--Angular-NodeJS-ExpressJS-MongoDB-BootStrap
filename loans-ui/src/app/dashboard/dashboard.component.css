@@ -1,0 +1,18 @@
+
+
+/* This contains all the Cards */
+.row {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+/* The Cards Container */
+.card {
+  margin: 0px 80px;
+  width: 200px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+}

@@ -1,0 +1,46 @@
+/* The Main NAV */
+.navbar {
+  background-color: rgba(0, 0, 0, .25);
+  box-shadow: inset -1px 0 0 rgb(0 0 0 / 25%);
+}
+
+/* .nav-item {
+  margin: 0px 0px 0px 40px;
+} */
+
+/* The Search Container */
+/* .search-container {
+  margin: 0px 5px 0px 130px;
+} */
+
+.notification-container {
+  margin: 0px 15px 0px 0px;
+}
+
+/* the  Image Container */
+.userImage {
+  margin: 0px 0px 0px 0px;
+}
+
+/* the  Image of User */
+.userImage > img {
+  border: 1px solid lightgrey;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* The DropDown Section */
+.dropdown-menu {
+  display: none;
+}
+
+/* This will Show the User DropDown Section when We Hover Over the UserName */
+.user-menu:hover .dropdown-menu {
+  display: block;
+  z-index: 100;
+  cursor: pointer;
+  width: 100px;
+  /* position: absolute; */
+}

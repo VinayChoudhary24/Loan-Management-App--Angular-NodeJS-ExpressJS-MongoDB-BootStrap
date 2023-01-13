@@ -1,0 +1,31 @@
+/* The Search and Tags Container */
+.options-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px 30px 0px 30px;
+  padding: 5px;
+}
+
+/* This Contains the Buttons i.e Filter, Edit and Delete */
+.options-buttons {
+  display: flex;
+  flex: 0.3;
+  justify-content: space-evenly;
+}
+
+/* The Search Input Field */
+.form-control {
+  width: 250px;
+}
+
+/* The Table Container */
+.table-container {
+  margin: 0px 5px 5px 5px;
+  padding: 5px;
+}
+
+/* The CheckBox  */
+.form-check-input {
+  border: 1px solid darkgray;
+}
